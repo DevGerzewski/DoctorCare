@@ -582,7 +582,7 @@ footer .social-links {
     transition: opacity 0.4s;
   }
 
-  nav#nav .menu li a:active,
+  nav#nav .menu li a.active,
   nav#nav .menu li a:hover {
     opacity: 1;
     font-weight: 700;
@@ -607,18 +607,18 @@ footer .social-links {
     background-color: white;
   }
 
-  nav#nav .menu li a:active::after,
+  nav#nav .menu li a.active::after,
   nav#nav .menu li a:hover::after {
     padding-inline: 0.8rem;
     width: 100%;
   }
 
-  nav#nav.scroll .menu li a:active,
+  nav#nav.scroll .menu li a.active,
   nav#nav.scroll .menu li a:hover {
     opacity: 1;
   }
 
-  nav#nav.scroll .menu a.button:active,
+  nav#nav.scroll .menu a.button.active,
   nav#nav.scroll .menu a.button:hover {
     background-color: var(--primary-color);
     filter: brightness(1.3);
